@@ -1,0 +1,5654 @@
+<mt2-report>
+<description>
+ <version>1.0</version>
+ <type>xml-message</type>
+ <date>2025-03-20T11:34:27Z</date>
+ <startTime>0000000001742470360170</startTime>
+ <encryption>no</encryption>
+ <zeroDistanceDelay>00000000000000000000</zeroDistanceDelay>
+ <GEMCaptureSize>00000000004294967295</GEMCaptureSize>
+ <license>
+  <type>niva_gpon</type>
+  <version>7.0</version>
+  <revision>4722</revision>
+  <timeLimit>Definitive</timeLimit>
+ </license>
+ <views>
+  <view>console</view>
+  <view>script</view>
+  <view>board</view>
+  <view>OmciErd</view>
+  <view>supervision</view>
+  <view>messages</view>
+ </views>
+</description>
+views>
+</description>
+"PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338099916"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338099917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338099918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338099919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338099920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338099921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338100169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338179917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338179918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338179919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338179920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338179921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338179922"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338180169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::REI"/>
+ <status value="OK"/>
+ <timestamp value="338181832"/>
+ <fifo value="Upstream PLOAM"/>
+ <rate value="1.24416 Gbps"/>
+ <size value="104"/>
+ <src value="4"/>
+ <docref value="G984.3:71"/>
+ <raw value="0408000000000600000000007d"/>
+ <field value="4">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::REI">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Error Counter"/>
+  <location value="16"/>
+  <size value="32"/>
+ </field>
+ <field value="6">
+  <name value="Sequence Number"/>
+  <location value="52"/>
+  <size value="4"/>
+ </field>
+ <field value="7d">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="7d">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338259917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338259918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338259919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338259920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338259921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338259922"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338260169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::REI"/>
+ <status value="OK"/>
+ <timestamp value="338262625"/>
+ <fifo value="Upstream PLOAM"/>
+ <rate value="1.24416 Gbps"/>
+ <size value="104"/>
+ <src value="7"/>
+ <docref value="G984.3:71"/>
+ <raw value="070800000000070000000000b3"/>
+ <field value="7">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::REI">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Error Counter"/>
+  <location value="16"/>
+  <size value="32"/>
+ </field>
+ <field value="7">
+  <name value="Sequence Number"/>
+  <location value="52"/>
+  <size value="4"/>
+ </field>
+ <field value="b3">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="b3">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Get All Alarms  (ONU Data)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:471"/>
+ <timestamp value="338287103"/>
+ <fifo value="Downstream OMCI"/>
+ <src value="7"/>
+ <rate value="2.48832 Gbps"/>
+ <location value="29446"/>
+ <raw value="00764b0a00020000000000000000000000000000000000000000000000000000000000000000000000000028b2a3792d"/>
+ <field value="0x0076">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledge Request"/>
+  <location value="17"/>
+  <size value="1"/>
+ </field>
+ <field value="11">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="2 (ONU Data)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x0000">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="Get all alarms regardless of ARC status">
+  <name value="Option"/>
+  <location value="71"/>
+  <size value="1"/>
+ </field>
+ <field value="b2a3792d">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="b2a3792d">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Get All Alarms Response (ONU Data)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:471"/>
+ <timestamp value="338287137"/>
+ <fifo value="Upstream OMCI"/>
+ <src value="7"/>
+ <rate value="1.24416 Gbps"/>
+ <location value="65536"/>
+ <raw value="00762b0a00020000000400000000000000000000000000000000000000000000000000000000000000000028bcdab8da"/>
+ <field value="0x0076">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledgement"/>
+  <location value="18"/>
+  <size value="1"/>
+ </field>
+ <field value="11">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="2 (ONU Data)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x0000">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="4">
+  <name value="Number of subsequent commands"/>
+  <location value="64"/>
+  <size value="16"/>
+ </field>
+ <field value="bcdab8da">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="bcdab8da">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Get All Alarms Next  (ONU Data)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:471"/>
+ <timestamp value="338287242"/>
+ <fifo value="Downstream OMCI"/>
+ <src value="7"/>
+ <rate value="2.48832 Gbps"/>
+ <location value="28426"/>
+ <raw value="00774c0a0002000000000000000000000000000000000000000000000000000000000000000000000000002874dc20e8"/>
+ <field value="0x0077">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledge Request"/>
+  <location value="17"/>
+  <size value="1"/>
+ </field>
+ <field value="12">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="2 (ONU Data)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x0000">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="0">
+  <name value="Command sequence number"/>
+  <location value="64"/>
+  <size value="16"/>
+ </field>
+ <field value="74dc20e8">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="74dc20e8">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Get All Alarms Next Response (ONU Data)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:472"/>
+ <timestamp value="338287257"/>
+ <fifo value="Upstream OMCI"/>
+ <src value="7"/>
+ <rate value="1.24416 Gbps"/>
+ <location value="65536"/>
+ <raw value="00772c0a00020000000b01018000000000000000000000000000000000000000000000000000000000000028ca596585"/>
+ <field value="0x0077">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledgement"/>
+  <location value="18"/>
+  <size value="1"/>
+ </field>
+ <field value="12">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="2 (ONU Data)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x0000">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="11 (PPTPEthernetUni)">
+  <name value="Entity class on which the alarms are reported"/>
+  <location value="64"/>
+  <size value="16"/>
+ </field>
+ <field value="0101">
+  <name value="Entity instance on which the alarms are reported"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="LAN-LOS">
+  <name value="Alarm"/>
+  <location value="96"/>
+  <size value="1"/>
+ </field>
+ <field value="ca596585">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="ca596585">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Get All Alarms Next  (ONU Data)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:471"/>
+ <timestamp value="338287333"/>
+ <fifo value="Downstream OMCI"/>
+ <src value="7"/>
+ <rate value="2.48832 Gbps"/>
+ <location value="581"/>
+ <raw value="00784c0a0002000000010000000000000000000000000000000000000000000000000000000000000000002843ddaead"/>
+ <field value="0x0078">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledge Request"/>
+  <location value="17"/>
+  <size value="1"/>
+ </field>
+ <field value="12">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="2 (ONU Data)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x0000">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="1">
+  <name value="Command sequence number"/>
+  <location value="64"/>
+  <size value="16"/>
+ </field>
+ <field value="43ddaead">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="43ddaead">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Get All Alarms Next Response (ONU Data)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:472"/>
+ <timestamp value="338287353"/>
+ <fifo value="Upstream OMCI"/>
+ <src value="7"/>
+ <rate value="1.24416 Gbps"/>
+ <location value="65536"/>
+ <raw value="00782c0a00020000000b01028000000000000000000000000000000000000000000000000000000000000028dd4cad1d"/>
+ <field value="0x0078">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledgement"/>
+  <location value="18"/>
+  <size value="1"/>
+ </field>
+ <field value="12">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="2 (ONU Data)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x0000">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="11 (PPTPEthernetUni)">
+  <name value="Entity class on which the alarms are reported"/>
+  <location value="64"/>
+  <size value="16"/>
+ </field>
+ <field value="0102">
+  <name value="Entity instance on which the alarms are reported"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="LAN-LOS">
+  <name value="Alarm"/>
+  <location value="96"/>
+  <size value="1"/>
+ </field>
+ <field value="dd4cad1d">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="dd4cad1d">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Get All Alarms Next  (ONU Data)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:471"/>
+ <timestamp value="338287400"/>
+ <fifo value="Downstream OMCI"/>
+ <src value="7"/>
+ <rate value="2.48832 Gbps"/>
+ <location value="23234"/>
+ <raw value="00794c0a00020000000200000000000000000000000000000000000000000000000000000000000000000028c2620cc8"/>
+ <field value="0x0079">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledge Request"/>
+  <location value="17"/>
+  <size value="1"/>
+ </field>
+ <field value="12">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="2 (ONU Data)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x0000">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="2">
+  <name value="Command sequence number"/>
+  <location value="64"/>
+  <size value="16"/>
+ </field>
+ <field value="c2620cc8">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="c2620cc8">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Get All Alarms Next Response (ONU Data)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:472"/>
+ <timestamp value="338287417"/>
+ <fifo value="Upstream OMCI"/>
+ <src value="7"/>
+ <rate value="1.24416 Gbps"/>
+ <location value="65536"/>
+ <raw value="00792c0a00020000000b01038000000000000000000000000000000000000000000000000000000000000028984f2309"/>
+ <field value="0x0079">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledgement"/>
+  <location value="18"/>
+  <size value="1"/>
+ </field>
+ <field value="12">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="2 (ONU Data)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x0000">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="11 (PPTPEthernetUni)">
+  <name value="Entity class on which the alarms are reported"/>
+  <location value="64"/>
+  <size value="16"/>
+ </field>
+ <field value="0103">
+  <name value="Entity instance on which the alarms are reported"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="LAN-LOS">
+  <name value="Alarm"/>
+  <location value="96"/>
+  <size value="1"/>
+ </field>
+ <field value="984f2309">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="984f2309">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Get All Alarms Next  (ONU Data)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:471"/>
+ <timestamp value="338287457"/>
+ <fifo value="Downstream OMCI"/>
+ <src value="7"/>
+ <rate value="2.48832 Gbps"/>
+ <location value="36634"/>
+ <raw value="007a4c0a000200000003000000000000000000000000000000000000000000000000000000000000000000282d72d829"/>
+ <field value="0x007a">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledge Request"/>
+  <location value="17"/>
+  <size value="1"/>
+ </field>
+ <field value="12">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="2 (ONU Data)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x0000">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="3">
+  <name value="Command sequence number"/>
+  <location value="64"/>
+  <size value="16"/>
+ </field>
+ <field value="2d72d829">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="2d72d829">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Get All Alarms Next Response (ONU Data)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:472"/>
+ <timestamp value="338287489"/>
+ <fifo value="Upstream OMCI"/>
+ <src value="7"/>
+ <rate value="1.24416 Gbps"/>
+ <location value="65536"/>
+ <raw value="007a2c0a00020000000b01048000000000000000000000000000000000000000000000000000000000000028f3cb5623"/>
+ <field value="0x007a">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledgement"/>
+  <location value="18"/>
+  <size value="1"/>
+ </field>
+ <field value="12">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="2 (ONU Data)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x0000">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="11 (PPTPEthernetUni)">
+  <name value="Entity class on which the alarms are reported"/>
+  <location value="64"/>
+  <size value="16"/>
+ </field>
+ <field value="0104">
+  <name value="Entity instance on which the alarms are reported"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="LAN-LOS">
+  <name value="Alarm"/>
+  <location value="96"/>
+  <size value="1"/>
+ </field>
+ <field value="f3cb5623">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="f3cb5623">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Test  (ANI G)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:476"/>
+ <timestamp value="338287568"/>
+ <fifo value="Downstream OMCI"/>
+ <src value="7"/>
+ <rate value="2.48832 Gbps"/>
+ <location value="5874"/>
+ <raw value="007b520a0107800107000000000000000000000000000000000000000000000000000000000000000000002863e70273"/>
+ <field value="0x007b">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledge Request"/>
+  <location value="17"/>
+  <size value="1"/>
+ </field>
+ <field value="18">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="263 (ANI G)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x8001">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="self-test">
+  <name value="test"/>
+  <status value="OK"/>
+  <location value="64"/>
+  <size value="8"/>
+ </field>
+ <field value="0x0000">
+  <name value="GeneralPurposeBufferPtr"/>
+  <status value="OK"/>
+  <location value="72"/>
+  <size value="16"/>
+ </field>
+ <field value="0">
+  <name value="OctetStringPtr"/>
+  <status value="OK"/>
+  <location value="88"/>
+  <size value="16"/>
+ </field>
+ <field value="63e70273">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="63e70273">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Test Response (ANI G)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:483"/>
+ <timestamp value="338287585"/>
+ <fifo value="Upstream OMCI"/>
+ <src value="7"/>
+ <rate value="1.24416 Gbps"/>
+ <location value="65536"/>
+ <raw value="007b320a01078001000000000000000000000000000000000000000000000000000000000000000000000028f3bd37cf"/>
+ <field value="0x007b">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="1">
+  <name value="Acknowledgement"/>
+  <location value="18"/>
+  <size value="1"/>
+ </field>
+ <field value="18">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="263 (ANI G)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x8001">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="Command processed successfully">
+  <name value="Error Code"/>
+  <status value="OK"/>
+  <location value="68"/>
+  <size value="4"/>
+ </field>
+ <field value="f3bd37cf">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="f3bd37cf">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="OMCI::Test Result  (ANI G)"/>
+ <status value="OK"/>
+ <docref value="G.988-1210:497"/>
+ <timestamp value="338288073"/>
+ <fifo value="Upstream OMCI"/>
+ <src value="7"/>
+ <rate value="1.24416 Gbps"/>
+ <location value="65536"/>
+ <raw value="007b1b0a010780010100a00324d7053f46090ef10c371e000000000000000000000000000000000000000028285c855b"/>
+ <field value="0x007b">
+  <name value="Transaction correlation id"/>
+  <location value="1"/>
+  <size value="15"/>
+ </field>
+ <field value="Low">
+  <name value="Priority"/>
+  <location value="0"/>
+  <size value="1"/>
+ </field>
+ <field value="27">
+  <name value="Message Type"/>
+  <location value="19"/>
+  <size value="5"/>
+ </field>
+ <field value="Baseline OMCI">
+  <name value="Device Id"/>
+  <status value="OK"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="263 (ANI G)">
+  <name value="Managed entity"/>
+  <status value="OK"/>
+  <location value="32"/>
+  <size value="16"/>
+ </field>
+ <field value="0x8001">
+  <name value="Managed Entity Instance"/>
+  <location value="48"/>
+  <size value="16"/>
+ </field>
+ <field value="{Type 1: Power feed voltage, Power Feed Voltage: 3200 mV, Type 3: Received optical power, Received Optical Power: -11.138 dBm, Type 5: Mean optical launch power, Mean optical launch power: 2.396 dBm, Type 9: Laser bias current, Laser bias Current: 7650 uA, Type 12: Temperature, degrees, Temperature: 55.117 C}">
+  <name value="Result"/>
+  <status value="OK"/>
+  <location value="64"/>
+  <size value="120"/>
+  <field value="Power feed voltage">
+   <name value="Type 1"/>
+   <status value="OK"/>
+   <location value="64"/>
+   <size value="8"/>
+  </field>
+  <field value="3200 mV">
+   <name value="Power Feed Voltage"/>
+   <status value="OK"/>
+   <location value="72"/>
+   <size value="16"/>
+  </field>
+  <field value="Received optical power">
+   <name value="Type 3"/>
+   <status value="OK"/>
+   <location value="88"/>
+   <size value="8"/>
+  </field>
+  <field value="-11.138 dBm">
+   <name value="Received Optical Power"/>
+   <status value="OK"/>
+   <location value="96"/>
+   <size value="16"/>
+  </field>
+  <field value="Mean optical launch power">
+   <name value="Type 5"/>
+   <status value="OK"/>
+   <location value="112"/>
+   <size value="8"/>
+  </field>
+  <field value="2.396 dBm">
+   <name value="Mean optical launch power"/>
+   <status value="OK"/>
+   <location value="120"/>
+   <size value="16"/>
+  </field>
+  <field value="Laser bias current">
+   <name value="Type 9"/>
+   <status value="OK"/>
+   <location value="136"/>
+   <size value="8"/>
+  </field>
+  <field value="7650 uA">
+   <name value="Laser bias Current"/>
+   <status value="OK"/>
+   <location value="144"/>
+   <size value="16"/>
+  </field>
+  <field value="Temperature, degrees">
+   <name value="Type 12"/>
+   <status value="OK"/>
+   <location value="160"/>
+   <size value="8"/>
+  </field>
+  <field value="55.117 C">
+   <name value="Temperature"/>
+   <status value="OK"/>
+   <location value="168"/>
+   <size value="16"/>
+  </field>
+ </field>
+ <field value="285c855b">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="352"/>
+  <size value="32"/>
+  <field value="285c855b">
+   <name value="Expected"/>
+   <location value="352"/>
+   <size value="32"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338339917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338339918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338339919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338339920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338339921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338339922"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338340169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338419917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338419918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338419919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338419920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338419921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338419922"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338420169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338499917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338499918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338499919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338499920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338499921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338499922"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338500169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338579917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338579918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338579919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338579920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338579921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338579922"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338580169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338659917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338659918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338659919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338659920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338659921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338659922"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338660169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338739917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338739918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338739919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338739920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338739921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338739922"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338740169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338819917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338819918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338819919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338819920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338819921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338819922"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338820169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338899917"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338899918"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Upstream_Overhead"/>
+ <status value="OK"/>
+ <timestamp value="338899919"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:61"/>
+ <raw value="ff01200000aaab598320000029"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Upstream_Overhead">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="32">
+  <name value="Number of guard bit"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 1 preamble bits"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="0">
+  <name value="Number of type 2 preamble bits"/>
+  <location value="32"/>
+  <size value="8"/>
+ </field>
+ <field value="0xaa">
+  <name value="Pattern type 3 preamble"/>
+  <location value="40"/>
+  <size value="8"/>
+ </field>
+ <field value="0xab5983">
+  <name value="Delimiter"/>
+  <location value="48"/>
+  <size value="24"/>
+ </field>
+ <field value="..1.">
+  <name value="Pre-equalization active"/>
+  <location value="74"/>
+  <size value="1"/>
+ </field>
+ <field value="..00">
+  <name value="Transmit power level"/>
+  <location value="78"/>
+  <size value="2"/>
+ </field>
+ <field value="0">
+  <name value="Pre-assigned delay"/>
+  <location value="80"/>
+  <size value="16"/>
+ </field>
+ <field value="29">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="29">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338899920"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338899921"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Extended_Burst_Length"/>
+ <status value="OK"/>
+ <timestamp value="338899922"/>
+ <fifo value="Downstream PLOAM"/>
+ <src value="255"/>
+ <rate value="2.48832 Gbps"/>
+ <size value="104"/>
+ <docref value="G984.3:68"/>
+ <raw value="ff143216000000000000000039"/>
+ <field value="255">
+  <name value="ONU-ID"/>
+  <status value="OK"/>
+  <location value="0"/>
+  <size value="8"/>
+ </field>
+ <field value="PLOAM::Extended_Burst_Length">
+  <name value="Message_Type"/>
+  <status value="OK"/>
+  <location value="8"/>
+  <size value="8"/>
+ </field>
+ <field value="50">
+  <name value="Number of type 3 ranging"/>
+  <location value="16"/>
+  <size value="8"/>
+ </field>
+ <field value="22">
+  <name value="Number of type 3 ranged"/>
+  <location value="24"/>
+  <size value="8"/>
+ </field>
+ <field value="39">
+  <name value="CRC"/>
+  <status value="OK"/>
+  <location value="96"/>
+  <size value="8"/>
+  <field value="39">
+   <name value="Expected"/>
+   <location value="96"/>
+   <size value="8"/>
+  </field>
+ </field>
+</message>
+<message>
+ <name value="PLOAM::Serial_Number_Request"/>
+ <status value="OK"/>
+ <fifo value="Downstream Meta"/>
+ <timestamp value="338900169"/>
+ <src value="254"/>
+ <rate value="2.48832 Gbps"/>
+ <raw value="0fe4004936494272"/>
+ <field value="254">
+  <name value="BWMAP"/>
+  <status value="OK"/>
+  <docref value="G984.3:40"/>
+  <location value="0"/>
+  <size value="64"/>
+  <field value="254">
+   <name value="Alloc-ID"/>
+   <location value="0"/>
+   <size value="12"/>
+  </field>
+  <field value="0x400">
+   <name value="Flags"/>
+   <location value="12"/>
+   <size value="12"/>
+   <field value=".1..">
+    <name value="PLOAMu"/>
+    <location value="13"/>
+    <size value="1"/>
+   </field>
+   <field value="..0.">
+    <name value="FEC"/>
+    <location value="14"/>
+    <size value="1"/>
+   </field>
+   <field value="...00">
+    <name value="DBRu"/>
+    <location value="15"/>
+    <size value="2"/>
+   </field>
+  </field>
+  <field value="18742">
+   <name value="StartTime"/>
+   <status value="OK"/>
+   <location value="24"/>
+   <size value="16"/>
+  </field>
+  <field value="18754">
+   <name value="StopTime"/>
+   <status value="OK"/>
+   <location value="40"/>
+   <size value="16"/>
+  </field>
+  <field value="72">
+   <name value="CRC"/>
+   <status value="OK"/>
+   <location value="56"/>
+   <size value="8"/>
+   <field value="72">
+    <name value="Expected"/>
+    <location value="56"/>
+    <size value="8"/>
+   </field>
+  </field>
+ </field>
+</message>
+</mt2-report>
