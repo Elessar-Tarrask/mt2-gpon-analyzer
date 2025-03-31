@@ -12,43 +12,75 @@
 
 3. OMCI сообщения:
 
-   a) Базовые операции:
-      - Get All Alarms (ONU Data)
-      - Test (ANI G)
-      - Test Response (ANI G)
-      - Test Result (ANI G)
+   a) Базовые операции (Base OMCI Messages):
+      - ME 2: ONU Data
+        * Get All Alarms: Мониторинг состояния ONU
+        * Get All Alarms Next: Продолжение сбора информации
+        * Get All Alarms Response: Ответы на запросы
+      
+      - ME 11: PPTPEthernetUni
+        * Конфигурация физического Ethernet интерфейса
+        * Настройка UNI (User Network Interface)
+        * Состояние и статус интерфейса
+      
+      - ME 263: ANI G
+        * Test: Проверка оптического интерфейса
+        * Test Response: Ответ на тестовые запросы
+        * Test Result: Результаты тестирования
 
-   b) Конфигурация сервисов:
-      - VEIP (ME 329):
+   b) Конфигурация сервисов (Service Configuration Messages):
+      - ME 329: VEIP (Virtual Ethernet Interface Point)
         * Set операции для настройки виртуального Ethernet интерфейса
         * Конфигурация VLAN 40
         * Управление административным состоянием
 
-      - VLAN конфигурация:
-        * VLAN Tagging Filter Data (ME 84)
-        * Ext VLAN Tagging Opr Config Data (ME 171)
-        * Настройка фильтрации и обработки VLAN тегов
+      - ME 84: VLAN Tagging Filter Data
+        * Настройка фильтрации VLAN тегов
+        * Конфигурация правил обработки VLAN
 
-      - Мостовая конфигурация:
-        * MAC Bridge Service Profile (ME 45)
-        * MAC Bridge Port Configuration Data (ME 47)
-        * Настройка мостовых портов и сервисов
+      - ME 171: Ext VLAN Tagging Opr Config Data
+        * Расширенная конфигурация VLAN
+        * Настройка операций с VLAN тегами
 
-      - GEM конфигурация:
-        * GEM Interworking Termination Point (ME 266)
-        * GEM Port Network CTP (ME 268)
-        * Настройка GEM портов и терминации
+      - ME 45: MAC Bridge Service Profile
+        * Профиль сервиса моста
+        * Настройка мостовых функций
 
-      - Управление трафиком:
-        * T CONT (ME 262)
-        * Priority Queue (ME 277)
-        * Pbit Mapper Service Profile (ME 130)
-        * Настройка очередей и приоритетов
+      - ME 47: MAC Bridge Port Configuration Data
+        * Конфигурация портов моста
+        * Настройка параметров портов
 
-      - Мониторинг:
-        * Ethernet Frame Extended PM 64 Bits (ME 425)
-        * GEM port network CTP performance monitoring (ME 341)
-        * Сбор статистики и метрик
+      - ME 266: GEM Interworking Termination Point
+        * Точка терминации GEM
+        * Настройка межсетевого взаимодействия
+
+      - ME 268: GEM Port Network CTP
+        * Конфигурация GEM портов
+        * Настройка сетевых точек подключения
+
+      - ME 262: T CONT
+        * Настройка контейнеров трафика
+        * Управление полосой пропускания
+
+      - ME 277: Priority Queue
+        * Настройка приоритетных очередей
+        * Управление приоритетами трафика
+
+      - ME 130: Pbit Mapper Service Profile
+        * Профиль маппинга приоритетов
+        * Настройка приоритизации
+
+      - ME 425: Ethernet Frame Extended PM 64 Bits
+        * Расширенный мониторинг производительности
+        * Сбор статистики Ethernet фреймов
+
+      - ME 341: GEM port network CTP performance monitoring
+        * Мониторинг производительности GEM портов
+        * Сбор метрик производительности
+
+      - ME 134: IP host config data
+        * Конфигурация IP хоста
+        * Настройка сетевых параметров
 
 4. Особенности реализации:
    - Полная конфигурация интернет-сервиса
