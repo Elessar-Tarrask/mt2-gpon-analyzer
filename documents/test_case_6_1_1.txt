@@ -1,0 +1,59 @@
+6.1 Classification and Tagging
+Test Case 6.1.1: Single Untagged U-Interface
+Abstract Test Plan for GPON ONU Conformance
+Test Name Single Untagged U-Interface
+Test Definition ID ONU.6.1.1
+Reference
+Document
+BBF TR-156i2 [3]
+ITU-T G.988 [2]
+Test Type Conformance
+Test Status Mandatory
+Requirement(s)
+Description
+BBF TR-156i2
+R-10 The ONU MUST support adding an S-Tag to upstream untagged traffic received from the U-interface.
+R-11 The ONU MUST support removing an S-Tag from downstream traffic received from the OLT.
+R-19 The ONU MUST support mapping traffic from one or more GEM Ports to a U-interface in the downstream direction.
+R-82 The ONU and OLT MUST support the identification and processing of upstream IGMP messages. When this function is disabled
+on a port and/or VLAN, these messages are transparently forwarded. Note: Only the second sentence in R-82 is verified by this test.
+Test Objective
+The purpose of this test is to verify the ONU’s OMCI implementation, MAC bridge, and filter tables support the minimum functionality
+to configure a single U-interface on the ONU to pass untagged traffic across the U-interface. This test verifies both the OMCI
+configuration responses and support of active user traffic. The VLAN S-Tag is added to upstream traffic by the ONU before crossing the
+R/S-interface and removed from the downstream traffic by the ONU before crossing the U-interface. Note that only the default behaviour
+described in the second half of R-82 is verified in this test.
+Test
+Configuration
+ The ONU is powered and connected to ODN.
+ The ONU has been activated by the OLT Emulator, has been ranged, and a GEM port for OMCI has been created as a result of ONUID assignment.
+ The OLT Emulator has instructed the ONU to reset its MIB to factory default values.
+ The Ethernet Traffic Generator/Analyzer is configured to transmit Ethernet frames upstream with the following parameters:
+Stream A: Untagged unicast
+Stream B: C-tagged unicast (any CVID)
+Stream C: S-tagged unicast (any SVID)
+Stream D: Untagged multicast
+ The OLT Emulator is configured to transmit Ethernet frames downstream with the following parameters:
+Stream E: S-tagged unicast (SVID1)
+Note: Only 1 user traffic is configured on the ONU requiring 1 GEM port (Alloc-ID, T-CONT, Port-ID).
+Test Procedure
+ Select a random value for SVID1 between 1 and 4094 and select random values for the MAC addresses.
+ Configure the OLT Emulator to provision the ONU to support: A single untagged U-interface, Addition/removal of the S-Tag in the
+upstream/downstream directions, respectively
+ Cause the OLT Emulator to request the ONU to upload its current MIB.
+ Enable any frame capture mechanisms on the OLT Emulator.
+ Cause the Ethernet Traffic Generator to transmit upstream frame(s) described in Streams A, B, C, D. Stream D frames must contain
+IGMP join reports.
+ Enable any frame capture mechanisms on the Ethernet Traffic Generator.
+ Cause the OLT Emulator to transmit downstream frame(s) described in Streams E.
+Pass/Fail Criteria
+The test passes if the following are true, otherwise the test fails:
+1. Each OMCI response message shall indicate success for the associated create or set command.
+2. The uploaded ONU MIB shall be consistent with the MIB held in the OLT Emulator
+3. All upstream frame(s) from Stream A and D shall have been received as S-tagged frame(s) with the VID equal to SVID1 and
+TPID=0x88A8.
+4. All downstream frame(s) from Stream E shall have been received as untagged frame(s).
+5. No upstream frame(s) from Streams B and C shall have been received (e.g. the frames are silently discarded by the ONU).
+Remarks
+No MAC filtering should be enabled on the ONU during these tests, or it should be configured to allow the test user traffic to pass
+through the ONU.
